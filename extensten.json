@@ -1,0 +1,90 @@
+{
+  // sync
+  "sync.gist": "58bbb07633d40cc76e97d618267df067",
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.forceDownload": false,
+  // breadcrumbs
+  "breadcrumbs.enabled": true,
+  "workbench.iconTheme": "material-icon-theme",
+  // editor
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "none",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.lineHeight": 24,
+  //prettier
+  "prettier.printWidth": 120,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "prettier.disableLanguages": [
+    "vue"
+  ],
+  // vetur
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+    "prettyhtml": {
+      "printWidth": 120,
+      "sortAttributes": true,
+      "wrapAttributes": true,
+      "singleQuote": false
+    },
+    "js-beautify-html": {
+      "wrap_line_length": 100,
+      "wrap_attributes": "force-aligned"
+    },
+    "prettier": {
+      "semi": false,
+      "singleQuote": true,
+      "printWidth": 120,
+    }
+  },
+  // element-helper
+  "element-helper.language": "zh-CN",
+  "element-helper.version": "2.5",
+  "element-helper.indent-size": 2,
+  "element-helper.quotes": "double", // html vue qoutes
+  "element-helper.pug-quotes": "single",
+  "files.associations": {
+    "*.json": "jsonc",
+    "*.vue": "vue",
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true, // jade/pug quotes
+  "window.zoomLevel": 0,
+  "terminal.integrated.rendererType": "dom",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  "minapp-vscode.disableAutoConfig": true,
+  "workbench.startupEditor": "welcomePage",
+  "search.followSymlinks": false,
+  "emmet.triggerExpansionOnTab": true,
+  "files.autoSave": "off",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "One Dark Pro",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ]
+}
